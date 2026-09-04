@@ -65,3 +65,96 @@ collections:
             fields:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Imagen", name: "image", widget: "image" }
+
+  - name: "home"
+    label: "Home"
+    files:
+      - name: "home"
+        label: "Página de Inicio"
+        file: "data/home.json"
+        fields:
+          - { label: "Texto principal (hero)", name: "hero_text", widget: "text" }
+          - { label: "Frase destacada al final del hero (en azul)", name: "hero_accent", widget: "string" }
+          - { label: "Etiqueta pequeña sobre 'Latam Scalability'", name: "problem_eyebrow", widget: "string" }
+          - { label: "Título 'Latam'", name: "scalability_title", widget: "string" }
+          - { label: "Palabra destacada (Scalability)", name: "scalability_accent", widget: "string" }
+          - label: "Carrusel Latam Scalability"
+            name: "carousel"
+            widget: "list"
+            summary: "{{fields.text}}"
+            fields:
+              - { label: "Imagen", name: "image", widget: "image" }
+              - { label: "Texto (usa **palabra** para resaltar en negrita)", name: "text", widget: "text" }
+          - { label: "Título 'Our methodology'", name: "methodology_title", widget: "string" }
+          - { label: "Imagen central (4 pilares)", name: "methodology_center_image", widget: "image" }
+          - label: "Tarjetas metodología (columna izquierda)"
+            name: "methodology_left"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Ícono", name: "icon", widget: "image" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "string" }
+          - label: "Tarjetas metodología (columna derecha)"
+            name: "methodology_right"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Ícono", name: "icon", widget: "image" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "string" }
+          - { label: "Etiqueta 'Follow us'", name: "linkedin_eyebrow", widget: "string" }
+          - { label: "Título (LinkedIn)", name: "linkedin_title", widget: "string" }
+          - { label: "Texto del botón", name: "linkedin_button_text", widget: "string" }
+          - { label: "Link de LinkedIn", name: "linkedin_url", widget: "string" }
+
+  - name: "investors"
+    label: "Investors"
+    files:
+      - name: "investors"
+        label: "Página de Investors"
+        file: "data/investors.json"
+        fields:
+          - { label: "Etiqueta (New Growth Latam Fund)", name: "label", widget: "string" }
+          - { label: "Texto del botón", name: "cta_text", widget: "string" }
+          - { label: "Link del botón", name: "cta_link", widget: "string" }
+
+  - name: "connect"
+    label: "Connect"
+    files:
+      - name: "connect"
+        label: "Página de Connect"
+        file: "data/connect.json"
+        fields:
+          - { label: "Link de LinkedIn", name: "linkedin_url", widget: "string" }
+          - { label: "Link de Twitter", name: "twitter_url", widget: "string" }
+          - { label: "Email de contacto", name: "email", widget: "string" }
+          - { label: "Dirección", name: "address", widget: "string" }
+          - { label: "Link de Google Maps para la dirección", name: "address_maps_url", widget: "string" }
+          - { label: "Título sobre el formulario", name: "form_heading", widget: "string" }
+
+  - name: "site"
+    label: "Ajustes Generales (Footer y Partners)"
+    files:
+      - name: "site"
+        label: "Redes, Footer y Strategic Partners"
+        file: "data/site.json"
+        fields:
+          - { label: "Link de LinkedIn", name: "linkedin_url", widget: "string" }
+          - { label: "Link de Twitter", name: "twitter_url", widget: "string" }
+          - { label: "Email del footer", name: "footer_email", widget: "string" }
+          - { label: "Texto de copyright", name: "footer_copyright", widget: "string" }
+          - label: "Logos - Strategic Partners"
+            name: "strategic_partners"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Nombre (texto alternativo)", name: "alt", widget: "string" }
+          - label: "Logos - Footer"
+            name: "footer_partners"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Nombre (texto alternativo)", name: "alt", widget: "string" }

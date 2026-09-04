@@ -1,0 +1,18 @@
+{
+  "linkedin_url": "https://www.linkedin.com/company/weboostvc",
+  "twitter_url": "https://twitter.com/weboostvc",
+  "footer_email": "cristian.velasco@weboost.vc",
+  "footer_copyright": "WeBoost© 2023 / All Rights Reserved",
+  "strategic_partners": [
+    { "logo": "assets/images/logo-venture-capital-chile.png", "alt": "Venture Capital Chile" },
+    { "logo": "assets/images/logo-corfo.png", "alt": "Corfo" },
+    { "logo": "assets/images/logo-bridge-brazil.png", "alt": "Bridge Brazil" },
+    { "logo": "assets/images/logo-brixton-ventures-lab-mexico.png", "alt": "Brixton Ventures Lab Mexico" },
+    { "logo": "assets/images/logo-acvc.png", "alt": "ACVC" }
+  ],
+  "footer_partners": [
+    { "logo": "assets/images/logo-corfo-footer.png", "alt": "Corfo" },
+    { "logo": "assets/images/logo-bridge-brazil-footer.png", "alt": "Bridge Brazil" },
+    { "logo": "assets/images/logo-brixton-ventures-lab-footer.png", "alt": "Brixton Ventures Lab" }
+  ]
+}
