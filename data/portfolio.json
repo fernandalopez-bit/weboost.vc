@@ -1,0 +1,314 @@
+{
+  "companies": [
+    {
+      "name": "Nexor",
+      "logo": "assets/images/logo-nexor.png",
+      "background": "",
+      "description": "Nexor is an agentic AI sales platform designed to fully automate and scale end-to-end commercial transactions for mid-sized companies and global enterprises. By deploying autonomous, context-aware AI agents across voice calls, WhatsApp, email, and Instagram, the platform empowers commercial teams to execute complex multi-step negotiations, resolve objections, and close deals without human intervention. Backed by Andreessen Horowitz’s (a16z) Speedrun program, Nexor helps businesses across international markets slash operational costs, eliminate sales bottlenecks, and maximize conversion rates while delivering a seamless, human-grade customer experience.",
+      "website": "",
+      "team": [
+        {
+          "name": "Ian Lee",
+          "role": "Co-Founder & CEO",
+          "photo": "assets/images/Ian-Lee-Nexor.jpg"
+        },
+        {
+          "name": "Gabriel Cid",
+          "role": "Co-Founder & Executive Chairman",
+          "photo": "assets/images/Gabriel-Cid-Nexor.jpg"
+        },
+        {
+          "name": "Daniel Jimenez",
+          "role": "Co-Founder & CRO",
+          "photo": "assets/images/Daniel-Jimenez-Nexor.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Funnelchat",
+      "logo": "assets/images/logo-funnelchat.png",
+      "background": "assets/images/background-funnelchat.jpg",
+      "description": "Funnelchat is an AI-powered operating system designed to automate and scale WhatsApp communication for businesses, agencies, and infoproducers. By centralizing 1:1 conversations, groups, and communities, the platform empowers sales and service teams to deploy trained AI agents, automate workflows, and seamlessly integrate with existing CRMs. As an official Meta Business Partner, Funnelchat helps companies across Latin America reduce manual workloads, prevent lead leakage, and consistently increase conversion rates while maintaining a personalized, human-like customer experience.",
+      "website": "https://funnelchat.com/",
+      "team": [
+        {
+          "name": "Alejandro Sánchez",
+          "role": "CEO & Founder",
+          "photo": "assets/images/Alejandro-Sanchez-Funnelchat.jpg"
+        },
+        {
+          "name": "Mayra Sánchez",
+          "role": "Chief Customer Officer",
+          "photo": "assets/images/Mayra-Sanchez-Funnelchat.jpg"
+        },
+        {
+          "name": "Francisco Calderón",
+          "role": "Managing Director & Co-founder",
+          "photo": "assets/images/Francisco-Calderon-Campos-Funnelchat.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Photio",
+      "logo": "assets/images/logo-Photio.png",
+      "background": "assets/images/background-flycrew-1.jpg",
+      "description": "Photio is a climate-tech company that develops nanotechnology-based additives applied to materials actively reduce air pollution. By leveraging photocatalytic processes activated by visible light, Photio’s solutions are designed to degrade harmful pollutants such as nitrogen oxides (NOx), helping cities and infrastructure operators improve air quality without changing existing construction processes. Its technology integrates directly into conventional materials, enabling scalable, cost-efficient deployment across roads, urban infrastructure, and industrial surfaces, with a strong focus on measurable environmental impact.",
+      "website": "https://photio.cl/",
+      "team": [
+        {
+          "name": "Matías Moya Alarcón",
+          "role": "Cofundador y CEO",
+          "photo": "assets/images/Matias-Moya-Alarcon-Photio.jpg"
+        },
+        {
+          "name": "Jaime Rovegno",
+          "role": "Cofundador",
+          "photo": "assets/images/Jaime-Rovegno-Photio.jpg"
+        },
+        {
+          "name": "Constanza Escobar",
+          "role": "Cofundadora y Directora Científica (CSO)",
+          "photo": "assets/images/Constanza-Escobar-Photio.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Leracom AI",
+      "logo": "assets/images/logo-Leracom.png",
+      "background": "assets/images/fondo-rayo.jpg",
+      "description": "Leracom is an AI-powered SaaS platform designed to optimize contact center performance through advanced speech analytics, automation, and real-time insights. By analyzing customer interactions across different channels, Leracom helps companies increase conversion rates, improve agent productivity, detect fraud and lead leakage, and generate actionable business intelligence. Its technology enables sales and service teams to move from reactive reporting to proactive decision-making, delivering measurable improvements in efficiency and revenue while integrating seamlessly with existing call center operations.",
+      "website": "https://leracom.ai/",
+      "team": [
+        {
+          "name": "Guillermo Treviño",
+          "role": "Cofundador y CEO",
+          "photo": "assets/images/Guillermo-Trevino-Leracom-AI.jpg"
+        },
+        {
+          "name": "Julio Barrera",
+          "role": "Cofundador y CTO",
+          "photo": "assets/images/Julio-Barrera-Leracom-AI.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Xpendit",
+      "logo": "assets/images/xpendit-logotype.png",
+      "background": "assets/images/fondo-Xpendit.jpg",
+      "description": "Leave all expenses management on autopilot! With Xpendit companies can automate operational expense management by integrating tools like AI and popular platforms like WhatsApp, providing a fast and efficient experience for businesses of all kinds.",
+      "website": "https://xpendit.com/",
+      "team": [
+        {
+          "name": "Felipe Puntarelli",
+          "role": "Co-Founder & CEO",
+          "photo": "assets/images/Felipe-Puntarelli.png"
+        },
+        {
+          "name": "Martín del Castillo",
+          "role": "Co-Founder & Head of Sales",
+          "photo": "assets/images/Martin-del-Castillo.png"
+        },
+        {
+          "name": "Nicolás José Ramos Bascuñan",
+          "role": "Co-Founder & CTO",
+          "photo": "assets/images/Nicolas-Jose-Ramos-Bascunan.png"
+        }
+      ]
+    },
+    {
+      "name": "ClicOH",
+      "logo": "assets/images/logo-clicoh.png",
+      "background": "assets/images/fondo-rayo.jpg",
+      "description": "ClicOH is developing the next generation infrastructure to empower e-commerce. A comprehensive shipping solution for companies that sell through e-commerce, marketplaces, and apps. Characterized by efficiency, achieved through strategic relations with industry partners. ClicOH builds a logistics network integrated into its technological platform, which allows e-commerce to obtain key information for their decision-making.",
+      "website": "https://clicoh.com/",
+      "team": [
+        {
+          "name": "Agustin Novillo Saravia",
+          "role": "CEO",
+          "photo": "assets/images/Agustin-Novillo-Saravia.jpg"
+        },
+        {
+          "name": "David Arango",
+          "role": "Co-Founder",
+          "photo": "assets/images/David-Arango-ClickOh.png"
+        }
+      ]
+    },
+    {
+      "name": "Sodtrack",
+      "logo": "assets/images/logo-sodtrack.jpg",
+      "background": "assets/images/t-fondo.jpg",
+      "description": "Sodtrack is empowering companies to deliver field services to end consumers with quality and scale. An enterprise SaaS company building workforce and workflow management technology to enable businesses to have 360 degree control of the customer experience being delivered on their behalf.",
+      "website": "https://www.sodtrack.com/",
+      "team": [
+        {
+          "name": "Hans Hanckes",
+          "role": "CEO/CTO",
+          "photo": "assets/images/Hans-Hanckes.jpg"
+        },
+        {
+          "name": "Mauricio Lopez",
+          "role": "COO/CRO",
+          "photo": "assets/images/Mauricio-Lopez.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Teselagen",
+      "logo": "assets/images/Logo-Teselagen.png",
+      "background": "assets/images/t-fondo.jpg",
+      "description": "Teselagen is the Artificial Intelligence enabled Operating System for Biotechnology, reducing cost and time to market with an AI-enabled Enterprise Platform that radically accelerates product development of therapeutics, high value chemicals, and agricultural products.",
+      "website": "https://teselagen.com/",
+      "team": [
+        {
+          "name": "Eduardo Abeliuk",
+          "role": "Founder and CEO",
+          "photo": "assets/images/Eduardo-Abeliuk-Teselagen.jpg"
+        },
+        {
+          "name": "Mike Fero",
+          "role": "Founder and COO",
+          "photo": "assets/images/Mike-Fero-Teselagen.jpg"
+        },
+        {
+          "name": "Nathan Hillson",
+          "role": "Founder and CSO",
+          "photo": "assets/images/Nathan-Hillson-Teselagen.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Wited",
+      "logo": "assets/images/Logo-Wited.png",
+      "background": "assets/images/background-wited.jpg",
+      "description": "Wited is the leading EdTech platform in Latam that integrates all school resources to enhance student learning, allowing parents to support them with online content and teachers to reinforce learning while at home.",
+      "website": "https://www.wited.com/",
+      "team": [
+        {
+          "name": "Gabriel Vera",
+          "role": "CEO",
+          "photo": "assets/images/Gabriel-Vera-Wited.jpg"
+        },
+        {
+          "name": "Paz González",
+          "role": "CPO",
+          "photo": "assets/images/Paz-Gonzales-Wited.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Rayo",
+      "logo": "assets/images/logo-rayo.png",
+      "background": "assets/images/fondo-rayo.jpg",
+      "description": "Rayo is a next generation smart logistics startup. Instead of relying on informal & non regulated freelancers, Rayo uses its proprietary technology to empower thousand of small delivery companies, creating a legal and formally established network of couriers to serve the B2B sector.",
+      "website": "https://rayoapp.com/",
+      "team": [
+        {
+          "name": "Martín Arancibia",
+          "role": "CEO",
+          "photo": "assets/images/Martin-Arancibia-Santibanez-Rayo.jpg"
+        },
+        {
+          "name": "Juan Andrés Cabrera",
+          "role": "CTO",
+          "photo": "assets/images/Juan-Andres-Cabrera-Lillo-Rayo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Legria",
+      "logo": "assets/images/Logo-Legria.png",
+      "background": "assets/images/fondo-legria.jpg",
+      "description": "Legria is the new way to own a second home using a co-ownership model based on a tech enabled platform. Own what you use, is the most efficient way to use a second home in Latin America.",
+      "website": "https://legria.com/",
+      "team": [
+        {
+          "name": "Ignacio del Río",
+          "role": "Founder & CEO",
+          "photo": "assets/images/Ignacio-del-Rio-Legria.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Wheel the World",
+      "logo": "assets/images/logo-wheel-the-world-.png",
+      "background": "assets/images/bg-wtw-.jpg",
+      "description": "Wheel the World is an online marketplace for travelers with disabilities and seniors to travel the world. By digitizing the accessibility information to the cloud, and a specialized user experience, Wheel the World allows its users to book hotels and tours that match their accessibility needs.",
+      "website": "https://www.gowheeltheworld.com/",
+      "team": [
+        {
+          "name": "Alvaro Silberstein",
+          "role": "Founder & CEO",
+          "photo": "assets/images/alvaro-silberstein-wheel-the-world.jpg"
+        },
+        {
+          "name": "Camilo Navarro",
+          "role": "Founder & COO",
+          "photo": "assets/images/camilo-nararro-wheel-the-world.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Cotalker",
+      "logo": "assets/images/logo-cotalker.svg",
+      "background": "assets/images/background-cotalker.jpg",
+      "description": "Cotalker is a low-code platform that digitalizes and automates companies workflows for assets and fieldworkers, enhancing the operation of documents, manteinance orders, contractors, tasks and work orders.",
+      "website": "https://www.cotalker.com/",
+      "team": [
+        {
+          "name": "Nicolás Durán",
+          "role": "Co-Founder & CEO",
+          "photo": "assets/images/Nicolas-Duran-Cotalker.jpg"
+        },
+        {
+          "name": "Hans Buckel",
+          "role": "Co Founder & Sales Director",
+          "photo": "assets/images/Hans-Buckel-Cotalker.jpg"
+        },
+        {
+          "name": "Edward Alvarado",
+          "role": "Co-Founder & CPO",
+          "photo": "assets/images/Edward-Alvarado-Cotalker.jpg"
+        }
+      ]
+    },
+    {
+      "name": "TheZeroRisk",
+      "logo": "assets/images/TheZeroRisk-1.png",
+      "background": "assets/images/C-S-fondo.jpg",
+      "description": "The ZeroRisk is a platform for managing and assessing technological risks, bringing your regulatory compliance just one click away. Using Artificial Intelligence, we identify your assets and processes to assign them catalogs of threats and controls.",
+      "website": "https://thezerorisk.com/",
+      "team": [
+        {
+          "name": "Fabián Rodríguez",
+          "role": "Founder & CEO",
+          "photo": "assets/images/Fabian-Rodriguez-TheZeroRisk.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Flycrew",
+      "logo": "assets/images/logo-flycrew.svg",
+      "background": "assets/images/background-flycrew-1.jpg",
+      "description": "Flycrew is an integrated platform for Latam content creators. Is the easiest way to manage and monetize audiences turning them into paid memberships for their independent practice.",
+      "website": "https://flycrew.com/",
+      "team": [
+        {
+          "name": "Nicolás Orellana",
+          "role": "Co-Founder & CEO",
+          "photo": "assets/images/Nicolas-Orellana-Flycrew.jpg"
+        },
+        {
+          "name": "Alvaro Quezada",
+          "role": "Co-Founder & CTO",
+          "photo": "assets/images/Alvaro-Quezada-Flycrew.jpg"
+        },
+        {
+          "name": "José Peña",
+          "role": "Co-Founder & CMO",
+          "photo": "assets/images/Jose-Pena-Flycrew.jpg"
+        }
+      ]
+    }
+  ]
+}

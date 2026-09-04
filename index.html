@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home - WeBoost</title>
+<link rel="icon" href="assets/images/logo-weboost.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2" />
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; });
+      }
+    });
+  }
+</script>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo-weboost.svg" alt="WeBoost - Latam Venture Partners" />
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="investors.html">Investors</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="connect.html">Connect</a></li>
+      </ul>
+    </nav>
+    <a href="apply.html" class="btn btn-primary btn-apply">Apply</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-headline">
+        Latam is home to some of the world&rsquo;s most exciting and innovative startups. We are focused on helping them achieve their full potential by providing investment and strategic support to scale
+        <strong class="text-accent">through all the region</strong>
+      </h1>
+      <a href="#latam-scalability" class="know-more">
+        <span>Know more</span>
+        <span class="know-more-circle" aria-hidden="true">
+          <svg width="16" height="10" viewBox="0 0 16 10" fill="none"><path d="M1 1L8 8L15 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+    </div>
+  </section>
+
+  <!-- The problem / Latam Scalability heading -->
+  <section class="section section-alt" id="latam-scalability">
+    <div class="container text-center">
+      <p class="eyebrow">The problem</p>
+      <h2 class="section-title">Latam <span class="text-accent">Scalability</span></h2>
+    </div>
+
+    <!-- Carousel -->
+    <div class="carousel" id="scalability-carousel">
+      <div class="carousel-track">
+        <div class="carousel-slide is-active">
+          <img src="assets/images/mapa-latam-scalability-1.png" alt="Latam Scalability - fragmented region" />
+          <p><strong>Latin America</strong> and Caribbean is a very fragmented region, with 640 million people spread in 33&nbsp;attractive but small markets, each one of them with their own cultural, political and financial structure.</p>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/images/mapa-latam-scalability-2.png" alt="Latam Scalability - complex expansion" />
+          <p>To be successful in their expansion, startups spend huge amount of time and resources to create complex structures and build strong local networks, facing a risk that is not part of their core competences.</p>
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/images/mapa-latam-scalability-3.png" alt="Latam Scalability - WeBoost solution" />
+          <p>WeBoost, a venture capital firm dedicated solely to find, accelerate &amp; scale local Latin American startups through all the region.</p>
+        </div>
+      </div>
+      <div class="carousel-dots" role="tablist"></div>
+    </div>
+  </section>
+
+  <!-- Our methodology -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Our methodology</h2>
+    </div>
+    <div class="container methodology-grid">
+      <div class="methodology-col">
+        <div class="methodology-card">
+          <img src="assets/images/icon-methodology-1.png" alt="Capital" />
+          <h4>Capital</h4>
+          <p>From $0.5M up to $3.5M</p>
+        </div>
+        <div class="methodology-card">
+          <img src="assets/images/icon-methodology-3.png" alt="Expansion Process" />
+          <h4>Expansion Process</h4>
+          <p>4 stage process based on a real case startup with a successful regional &amp; global scaling</p>
+        </div>
+      </div>
+      <div class="methodology-center">
+        <img src="assets/images/4-pillars.png" alt="WeBoost 4 pillars methodology" />
+      </div>
+      <div class="methodology-col">
+        <div class="methodology-card">
+          <img src="assets/images/icon-methodology-2.png" alt="Hands-on Partners" />
+          <h4>Hands-on Partners</h4>
+          <p>Partners get an active involvement to support entrepreneurs</p>
+        </div>
+        <div class="methodology-card">
+          <img src="assets/images/icon-methodology-4.png" alt="Latam Network" />
+          <h4>Latam Network</h4>
+          <p>A network of partners for a local fast-landing strategy in Latam countries</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Follow us -->
+  <section class="section text-center">
+    <div class="container">
+      <p class="eyebrow">Follow us</p>
+      <h2 class="section-title">LinkedIn</h2>
+      <a href="https://www.linkedin.com/company/weboostvc" target="_blank" rel="noopener" class="btn btn-primary">Go to LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Meet the team banner -->
+  <section class="section band-accent text-center">
+    <div class="container">
+      <a href="team.html" class="btn btn-outline">Meet the Team</a>
+    </div>
+  </section>
+
+  <!-- Strategic partners -->
+  <section class="section section-alt text-center">
+    <div class="container">
+      <h2 class="section-title">Strategic Partners</h2>
+      <div class="partners-row">
+        <img src="assets/images/logo-venture-capital-chile.png" alt="Venture Capital Chile" />
+        <img src="assets/images/logo-corfo.png" alt="Corfo" />
+        <img src="assets/images/logo-bridge-brazil.png" alt="Bridge Brazil" />
+        <img src="assets/images/logo-brixton-ventures-lab-mexico.png" alt="Brixton Ventures Lab Mexico" />
+        <img src="assets/images/logo-acvc.png" alt="ACVC" />
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container partners-row partners-row-footer">
+    <img src="assets/images/logo-corfo-footer.png" alt="Corfo" />
+    <img src="assets/images/logo-bridge-brazil-footer.png" alt="Bridge Brazil" />
+    <img src="assets/images/logo-brixton-ventures-lab-footer.png" alt="Brixton Ventures Lab" />
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>WeBoost&copy; 2023 / All Rights Reserved</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/company/weboostvc" target="_blank" rel="noopener"><img src="assets/images/icon-footer-linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://twitter.com/weboostvc" target="_blank" rel="noopener"><img src="assets/images/icon-footer-twitter.svg" alt="Twitter" /></a>
+        <a href="mailto:cristian.velasco@weboost.vc"><img src="assets/images/icon-footer-email.svg" alt="Email" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js?v=2"></script>
+</body>
+</html>

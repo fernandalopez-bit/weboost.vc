@@ -1,0 +1,58 @@
+{
+  "members": [
+    {
+      "name": "Cristián Velasco",
+      "role": "CEO & Managing Partner",
+      "bio": "23 years of Corporate & Entrepreneur Experience. Board Member of the Chilean Venture Capital Association.",
+      "photo": "assets/images/Cristian-Velasco-WeBoost.jpg"
+    },
+    {
+      "name": "Marcelo Díaz",
+      "role": "Managing Partner",
+      "bio": "22 years of VC management & Angel Investor Experience",
+      "photo": "assets/images/Marcelo-Diaz-WeBoost.jpg"
+    },
+    {
+      "name": "Christian Cafatti",
+      "role": "General Partner",
+      "bio": "18 years as Entrepreneur with Latam & Global Scale Experience",
+      "photo": "assets/images/Christian-Cafatti-WeBoost.jpg"
+    },
+    {
+      "name": "Naim Jadue",
+      "role": "General Partner",
+      "bio": "22 years of Fund Management & Angel Investor Experience",
+      "photo": "assets/images/Naim-Jadue-WeBoost.jpg"
+    },
+    {
+      "name": "Marlon Huerta",
+      "role": "Director",
+      "bio": "22 years of experience in entertainment sector, food industry and investment fund development",
+      "photo": "assets/images/Marlon-Huerta-WeBoost.jpg"
+    },
+    {
+      "name": "Santiago Lecaros",
+      "role": "UK Representative",
+      "bio": "Extensive experience in internationalization projects for Chilean companies",
+      "photo": "assets/images/Santiago-Lecaros-WeBoost.jpg"
+    },
+    {
+      "name": "Teppei Sakano",
+      "role": "Associate Japan",
+      "bio": "Serial Entrepreneur experience to boost our startups",
+      "photo": "assets/images/Teppei-Sakano-WeBoost.jpg"
+    },
+    {
+      "name": "Nicolás Gómez Santoyo",
+      "role": "Partner — Mexico",
+      "bio": "Operator-turned-investor scaling tech companies across LATAM.",
+      "photo": "assets/images/Nicolas-Gomez-Santoyo-WeBoost.jpg"
+    },
+    {
+      "name": "Fernanda López",
+      "role": "Analista Venture Capital",
+      "bio": "Financials & Data Analytics.",
+      "photo": "assets/images/Fernanda-Lopez-Weboost-1.jpg"
+    }
+  ]
+}

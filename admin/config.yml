@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "assets/images"
+
+locale: "es"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio (Startups)"
+    files:
+      - name: "companies"
+        label: "Startups"
+        file: "data/portfolio.json"
+        fields:
+          - label: "Startups"
+            name: "companies"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Imagen de fondo (opcional, deja vacío para usar el degradado por defecto)", name: "background", widget: "image", required: false }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Sitio web (opcional)", name: "website", widget: "string", required: false }
+              - label: "Equipo fundador"
+                name: "team"
+                widget: "list"
+                summary: "{{fields.name}} — {{fields.role}}"
+                fields:
+                  - { label: "Nombre", name: "name", widget: "string" }
+                  - { label: "Cargo", name: "role", widget: "string" }
+                  - { label: "Foto", name: "photo", widget: "image" }
+
+  - name: "team"
+    label: "Team (WeBoost)"
+    files:
+      - name: "members"
+        label: "Integrantes"
+        file: "data/team.json"
+        fields:
+          - label: "Integrantes"
+            name: "members"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.role}}"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Cargo", name: "role", widget: "string" }
+              - { label: "Bio corta", name: "bio", widget: "text" }
+              - { label: "Foto", name: "photo", widget: "image" }
+
+  - name: "media"
+    label: "Media (Prensa)"
+    files:
+      - name: "items"
+        label: "Menciones de prensa"
+        file: "data/media.json"
+        fields:
+          - label: "Menciones"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Imagen", name: "image", widget: "image" }
