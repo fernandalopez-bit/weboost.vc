@@ -71,6 +71,12 @@ a { color: inherit; text-decoration: none; }
   border: 2px solid #fff;
 }
 .btn-outline:hover { background: rgba(255,255,255,0.15); }
+.btn-outline-dark {
+  background: transparent;
+  color: var(--color-dark);
+  border: 2px solid var(--color-dark);
+}
+.btn-outline-dark:hover { background: rgba(37,35,49,0.06); }
 
 /* Header */
 .site-header {
@@ -306,6 +312,13 @@ a { color: inherit; text-decoration: none; }
   color: var(--color-text);
 }
 .page-hero .quote strong { color: var(--color-dark); }
+.apply-choice-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
 .page-hero.has-bg {
   background-image: url("../assets/images/background-headerportfolio.jpg");
   background-size: cover;
@@ -485,7 +498,7 @@ a { color: inherit; text-decoration: none; }
 .contact-form-panel textarea { resize: vertical; }
 
 /* Apply page */
-.apply-embed { max-width: 800px; margin: 150px auto 60px; padding: 0 30px; }
+.apply-embed { max-width: 800px; margin: 40px auto 60px; padding: 0 30px; scroll-margin-top: 110px; }
 .apply-embed iframe { width: 100%; height: 1000px; border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.1); }
 
 /* Responsive */
