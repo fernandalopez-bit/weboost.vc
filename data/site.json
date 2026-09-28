@@ -11,8 +11,6 @@
     { "logo": "assets/images/logo-acvc.png", "alt": "ACVC" }
   ],
   "footer_partners": [
-    { "logo": "assets/images/logo-corfo-footer.png", "alt": "Corfo" },
-    { "logo": "assets/images/logo-bridge-brazil-footer.png", "alt": "Bridge Brazil" },
-    { "logo": "assets/images/logo-brixton-ventures-lab-footer.png", "alt": "Brixton Ventures Lab" }
+    { "logo": "assets/images/logo-corfo-footer.png", "alt": "Corfo" }
   ]
 }
