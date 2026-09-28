@@ -56,3 +56,19 @@ if (navToggle && mainNav) {
     });
   });
 }
+
+// Apply page: revenue filter gates the "Let's Connect" shortcut
+const revenueToggle = document.getElementById('revenue-toggle');
+if (revenueToggle) {
+  const letsConnectBtn = document.getElementById('lets-connect-btn');
+  const filterNote = document.getElementById('funding-filter-note');
+  revenueToggle.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      revenueToggle.querySelectorAll('button').forEach(b => b.classList.remove('is-selected'));
+      btn.classList.add('is-selected');
+      const qualifies = btn.dataset.revenue === 'yes';
+      letsConnectBtn.hidden = !qualifies;
+      filterNote.hidden = qualifies;
+    });
+  });
+}

@@ -26,6 +26,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 html { scroll-behavior: smooth; }
 
@@ -336,6 +337,57 @@ a { color: inherit; text-decoration: none; }
   color: var(--color-text);
 }
 .page-hero .quote strong { color: var(--color-dark); }
+.funding-filter {
+  max-width: 420px;
+  margin: 36px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  text-align: left;
+}
+.funding-filter-field label,
+.funding-filter-field p {
+  display: block;
+  font-size: 15px;
+  color: var(--color-dark);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.funding-filter-field select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--color-text);
+  background: #fff;
+}
+.funding-filter-toggle { display: flex; gap: 12px; }
+.funding-filter-toggle button {
+  flex: 1;
+  padding: 12px 0;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  background: #fff;
+  color: var(--color-text);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.funding-filter-toggle button:hover { border-color: var(--color-accent); }
+.funding-filter-toggle button.is-selected {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+.funding-filter-note {
+  max-width: 420px;
+  margin: 20px auto 0;
+  font-size: 14px;
+  color: var(--color-muted);
+}
 .apply-choice-buttons {
   display: flex;
   justify-content: center;

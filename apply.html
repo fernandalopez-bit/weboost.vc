@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3" />
+<link rel="stylesheet" href="css/style.css?v=5" />
 </head>
 <body>
 
@@ -40,10 +40,38 @@
       <p class="eyebrow">Startups</p>
       <h1>Raising funds?</h1>
       <p class="quote" style="font-style:normal;">Choose whichever works best for you: a quick intro call, or jump straight into the application.</p>
+
+      <div class="funding-filter" id="funding-filter">
+        <div class="funding-filter-field">
+          <label for="filter-vertical">What&rsquo;s your startup&rsquo;s vertical?</label>
+          <select id="filter-vertical">
+            <option value="">Select one&hellip;</option>
+            <option>Fintech</option>
+            <option>Logistics &amp; Supply Chain</option>
+            <option>AI / SaaS</option>
+            <option>Healthtech / Biotech</option>
+            <option>Edtech</option>
+            <option>Proptech</option>
+            <option>Cybersecurity</option>
+            <option>Climate Tech</option>
+            <option>Travel &amp; Consumer</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="funding-filter-field">
+          <p>Are you forecasting more than USD 1M in revenue in the next 12 months?</p>
+          <div class="funding-filter-toggle" id="revenue-toggle">
+            <button type="button" data-revenue="yes">Yes</button>
+            <button type="button" data-revenue="no">No</button>
+          </div>
+        </div>
+      </div>
+
       <div class="apply-choice-buttons">
-        <a href="https://calendly.com/fernanda-lopez-weboost/15min" target="_blank" rel="noopener" class="btn btn-primary">Let&rsquo;s Connect</a>
+        <a href="https://calendly.com/fernanda-lopez-weboost/15min" target="_blank" rel="noopener" class="btn btn-primary" id="lets-connect-btn" hidden>Let&rsquo;s Connect</a>
         <a href="#apply-form" class="btn btn-outline-dark">Apply</a>
       </div>
+      <p class="funding-filter-note" id="funding-filter-note" hidden>Based on where you&rsquo;re at, a 15-min intro call might not be the best fit right now &mdash; but you&rsquo;re welcome to submit your application below and our team will take a look.</p>
     </div>
   </section>
 
@@ -54,7 +82,7 @@
 
 <footer class="site-footer" id="site-footer"></footer>
 
-<script src="js/script.js?v=3"></script>
+<script src="js/script.js?v=4"></script>
 <script src="js/render.js?v=1"></script>
 </body>
 </html>
