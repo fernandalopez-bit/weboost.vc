@@ -1,0 +1,7 @@
+/team          /team.html        200
+/portfolio     /portfolio.html   200
+/investors     /investors.html   200
+/media         /media.html       200
+/connect       /connect.html     200
+/apply         /apply.html       200
+/integrante_team/*  /team.html   301
